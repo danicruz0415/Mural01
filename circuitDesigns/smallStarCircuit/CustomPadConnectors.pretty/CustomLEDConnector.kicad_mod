@@ -1,0 +1,95 @@
+(footprint "CustomLEDConnector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LED"
+		(at 2.5 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "022ee73a-d21f-4ccb-b3dc-bcad1c06b99e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CustomLEDConnector"
+		(at 3 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9726234e-06b5-4859-b78d-1b525bb88bd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4661fdd2-81b0-49ec-81bf-06384a1a93f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0a04104-38d9-4235-b027-b5451ad36339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 2)
+		(end 5 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ae1f9b4f-26a5-4a0b-b055-af33f8944f6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c444f10c-41a7-4d5f-818f-52a998779c1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect roundrect
+		(at 2.5 1)
+		(size 5 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "1169194d-ec4a-41ec-97ef-b1862178d0e6")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 8.4)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "be7ae8dc-f2da-42eb-ab6c-655cf366f2c7")
+	)
+	(embedded_fonts no)
+)
