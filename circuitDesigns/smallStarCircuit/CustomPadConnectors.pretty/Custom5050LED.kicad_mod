@@ -200,14 +200,17 @@
 	)
 	(pad "1" smd rect
 		(at -2.4 0 90)
-		(size 4.5 2)
+		(size 4.4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f977c840-00b9-4be0-b870-9299808108f4")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.4 0 90)
-		(size 4.5 2)
+		(size 4.4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer bottom_right)
 		(uuid "4e67b1c2-6de9-4298-bb42-1527fed10e69")
 	)
 	(embedded_fonts no)
